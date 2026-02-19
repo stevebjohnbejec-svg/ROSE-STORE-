@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ROSE STORE - Products</title>
+  <meta name="description" content="Sari-sari store, Community business, Sila, Boljoon, Cebu, Rose Sesaldo, Local products, Affordable goods, Neighborhood store, Family-run business, Customer service, Small business growth">
+  <meta name="keywords" content="Family-run Boljoon sari-sari store offering affordable local products">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                  url("PIC4.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    /* HEADER */
+    .header {
+      background: #ff5722;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    .sub-header {
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    /* NAVIGATION */
+    .nav {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    .nav a:hover {
+      color: yellow;
+    }
+
+    /* PRODUCT GRID */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 90%;
+      margin: 0 auto 50px auto;
+    }
+
+    .product-box {
+      background: rgba(255,255,255,0.92);
+      border-radius: 15px;
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+
+    .product-box:hover {
+      transform: scale(1.05);
+    }
+
+    .product-box img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 15px;
+      color: #333;
+    }
+
+    .product-desc {
+      font-size: 16px;
+      color: #555;
+      margin-top: 10px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    @media (max-width: 768px) {
+      .product-box {
+        width: 90%;
+      }
+
+      .header {
+        font-size: 32px;
+      }
+
+      .sub-header {
+        font-size: 18px;
+      }
+
+      .nav a {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">ROSE STORE</div>
+  <div class="sub-header">EXTRA STRONG • EXTRA STRENGTH</div>
+
+  <div class="nav">
+    <a href="Index.html">HOME</a>
+    <a href="events.html">EVENT</a>
+    <a href="Contact.html">CONTACT US</a>
+    <a href="Product.html">PRODUCT</a>
+  </div>
+
+  <div class="products">
+
+    <div class="product-box">
+      <img src="PIC2.jpg" alt="Tuba">
+      <div class="product-title">TUBA</div>
+      <div class="product-desc">
+        Fresh coconut wine naturally made from coconut sap. Rich in potassium, iron, magnesium, and natural antioxidants. Traditional Filipino drink with sweet, tangy flavor. Best served chilled.
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="PIC3.jpg" alt="Red Horse">
+      <div class="product-title">RED HORSE</div>
+      <div class="product-desc">
+        Red Horse beer contains small amounts of B vitamins (B2, B6), magnesium, potassium, and phosphorus. Known for strong flavor and high alcohol content. Enjoy responsibly.
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="PIC0.jpg" alt="Winston">
+      <div class="product-title">WINSTON</div>
+      <div class="product-desc">
+        Winston contains tobacco, nicotine, and tar. Unsafe and unhealthy for lungs and heart. Use responsibly and with caution.
+      </div>
+    </div>
+
+    <div class="product-box">
+      <img src="PIC1.jpg" alt="Sari-Sari Products">
+      <div class="product-title">SARI-SARI PRODUCTS</div>
+      <div class="product-desc">
+        1. Candle – provides light, no nutrients.<br>
+        2. Dowe Doughnuts – energy from sugar, limited nutrients.<br>
+        3. Ketchup – small vitamin A, high sugar & sodium.<br>
+        4. Toyo (Soy Sauce) – adds flavor, high sodium.<br>
+        5. Junk Foods – energy from fats & sugar.<br>
+        6. Surf (Detergent) – for cleaning only, not edible.
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
